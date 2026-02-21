@@ -4,13 +4,13 @@ The Guided Component Architect is built using an **agentic workflow**, where the
 
 ### Workflow
 User Prompt
-↓
+   ->
 LLM Generator
-↓
+   ->
 Linter Agent (Validation)
-↓
-If errors detected → Self-Correction Loop → LLM Regeneration
-↓
+   ->
+If errors detected -> Self-Correction Loop -> LLM Regeneration
+   ->
 Final Valid Angular Component
 
 
